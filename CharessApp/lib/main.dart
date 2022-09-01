@@ -3,7 +3,7 @@ import 'package:CharessApp/pages/homepage.dart';
 import 'package:CharessApp/pages/cartpage.dart';
 import 'package:CharessApp/pages/productviewpage.dart';
 void main() {
-  runApp(const charessmain());
+  runApp(const CharessApp());
 }
 class CharessApp extends StatelessWidget {
   const CharessApp({Key? key}) : super(key: key);
