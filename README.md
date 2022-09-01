@@ -1,2 +1,0 @@
-# CharessApp
-Charess Merch App
