@@ -30,9 +30,6 @@ dependencies:
   flutter:
     sdk: flutter
 
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   curved_navigation_bar: ^1.0.3
   flutter_feather_icons: ^2.0.0+1
@@ -55,16 +52,63 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
 
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
   assets:
     - assets/images/banner1.png
-  # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+    - assets/images/extremeItem/bathwater.png
+  #Photocards
+    - assets/images/photocards/photocard1.png
+    - assets/images/photocards/photocard2.png
+    - assets/images/photocards/photocard3.png
+    - assets/images/photocards/photocard4.jpg
+    - assets/images/photocards/photocard5.jpg
+
+  #Posters (Main Image)
+    - assets/images/posters/p1.png
+    - assets/images/posters/p2.png
+    - assets/images/posters/p3.png
+    - assets/images/posters/p4.png
+    - assets/images/posters/p5.png
+
+  #Posters (Variation images)
+    - assets/images/posters/pgal1.png
+    - assets/images/posters/pgal2.png
+    - assets/images/posters/pgal3.png
+    - assets/images/posters/pgal4.png
+    - assets/images/posters/pgal5.png
+    - assets/images/posters/pgalside1.png
+    - assets/images/posters/pgalside2.png
+    - assets/images/posters/pgalside3.png
+    - assets/images/posters/pgalside4.png
+    - assets/images/posters/pgalside5.png
+
+  #Stickers (Main image)
+    - assets/images/stickers/sticker1.png
+    - assets/images/stickers/sticker2.png
+
+  #Stickers (Variation images)
+    - assets/images/stickers/stickerside1.png)
+    - assets/images/stickers/stickerside2.png
+
+  #Tees (Main images)
+    - assets/images/Tees/tshir1.png
+    - assets/images/Tees/tshirt2.png
+    - assets/images/Tees/tshirt3.png
+    - assets/images/Tees/tshirt4.png
+    - assets/images/Tees/tshirt5.png
+
+  #Tees (Variation images)
+    - assets/images/Tees/tshirt1vargreen.png
+    - assets/images/Tees/tshirt2vargreen.png
+    - assets/images/Tees/tshirt3vargreen.png
+    - assets/images/Tees/tshirt4vargreen.png
+    - assets/images/Tees/tshirt5vargreen.png
+
+  #NSFW items
+    - assets/images/nsfw_items/bathwater.png
+
+
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

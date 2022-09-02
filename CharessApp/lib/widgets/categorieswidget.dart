@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:charessapp/themes/constants.dart';
-import 'package:charessapp/Data.dart';
+import 'package:CharessApp/themes/constants.dart';
+import 'package:CharessApp/Data.dart';
 
 class CategoriesWidget extends StatefulWidget {
 
@@ -10,6 +10,7 @@ class CategoriesWidget extends StatefulWidget {
 
 class _CategoriesWidgetState extends State<CategoriesWidget> {
   List<Filter> filters = getFilterList();
+  List<Merch> merch = getMerchList();
 
   @override
   Widget build(BuildContext context) {
